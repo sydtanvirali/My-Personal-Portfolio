@@ -84,7 +84,7 @@
 /* About Area Style*/
 .site-main .about-area .about-title {
     background: url(../img/about-bg.png) no-repeat;
-    background-size: cover;
+    background-position: center;
 }
 
 .site-main .about-area .about-title h3>span {
