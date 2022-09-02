@@ -78,18 +78,18 @@
         height: auto;
     }
 
-    .header-area .main-menu .navbar .navbar-collaps {
+    .header-area .navbar .navbar-collaps {
         margin-top: -0.1rem;
     }
 
-    .header-area .main-menu .navbar-nav {
+    .header-area .navbar .navbar-nav {
         text-align: center;
         background-color: white;
+        padding: 0.5rem;
     }
 
-    .header-area .main-menu .navbar .nav-item .nav-link {
-        padding-left: 1rem;
-        padding-right: 1rem;
+    .header-area .navbar .navbar-nav .nav-link {
+        padding: 1.5rem;
     }
 
     h1.title {

@@ -7,53 +7,41 @@
     <title>Tanvir Ali</title>
 
     <!-- AOS CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
-<body class="bg-img" data-bs-spy="scroll" data-bs-target=".navbar" .data-bs-offset="90">
+<body data-bs-spy="scroll" data-bs-target=".navbar" .data-bs-offset="90">
     <!-- -------------------- Start Header Area -------------------- -->
     <header class="header-area">
-        <div class="main-menu">
-            <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top">
-                <div class="container-md" >
-                    <a class="navbar-brand" href="#"><img src="./img/Logo.png" alt="Logo"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#skills">Skills</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#projects">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                        </ul>
+        <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top">
+            <div class="container-md">
+                <a class="navbar-brand" href="#"><img src="./img/Logo.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </div>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
     <!-- -------------------- Start Main Area -------------------- -->
     <main class="site-main">
         <!-- -------------------- Start Banner Area -------------------- -->
         <section id="home" class="site-banner">
-            <div class="container">
+            <div class="container" data-aos="zoom-in">
                 <div class="row">
-                    <div class="col-md-6 col-12 order-md-1 order-2 site-title" data-aos="zoom-in">
+                    <div class="col-md-6 col-12 order-md-1 order-2 site-title">
                         <h2 class="title">Hey,</h2>
                         <h1 class="title">I'm <span>Tanvir</span></h1>
                         <h4 class="title">Software Engineer</h5>
@@ -64,7 +52,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-12 order-md-2 order-1 banner-image" data-aos="zoom-in">
+                    <div class="col-md-6 col-12 order-md-2 order-1 banner-image">
                         <img src="./img/banner-image.png" alt="Banner Image" class="img-fluid">
                     </div>
                 </div>
@@ -77,8 +65,8 @@
                     <div class="col-md-6 col-12 about-image" data-aos="zoom-in">
                         <img src="./img/about-us.png" alt="About us" class="img-fluid">
                     </div>
-                    <div class="col-md-6 col-12 about-title">
-                        <h3 class="title text-uppercase pt-5" data-aos="zoom-in">
+                    <div class="col-md-6 col-12 about-title" data-aos="zoom-in"> 
+                        <h3 class="title text-uppercase pt-5">
                             <span>Let me</span>
                             <span>Introdduce</span>
                             <span>Myself</span>
@@ -89,7 +77,7 @@
                             </p>
                             <p class="para">I'm highly organized and smart working individual looking for a responsible position to gain a practical experience to both my Personal and Professional growth.</p>
                         </div>
-                        <div class="icon" data-aos="fade-left">
+                        <div class="icon" data-aos="zoom-in">
                             <a href="https://wa.me/919881511007" target="_blank"><img src="./icons/Whatsapp.png" alt="Whatsapp"></a>
                             <a href="https://www.instagram.com/ehuntofficial" target="_blank"><img src="./icons/Instagram.png" alt="Instagram"></a>
                             <a href="https://www.linkedin.com/in/sayyad-tanvir-ali-8664ab176" target="_blank"><img src="./icons/LinkedIn.png" alt="LinkedIn"></a>
@@ -113,22 +101,22 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12 tab-area" data-aos="zoom-in">
                         <div class="row first-row align-items-center">
-                            <div class="col-xl-3 col-md-3 col-6" data-aos="zoom-in">
+                            <div class="col-xl-3 col-md-3 col-6">
                                 <div class="single-skill">
                                     <img src="./img/skills/c.png" alt="C Language" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-3 col-6 data-aos="zoom-in"">
+                            <div class="col-xl-3 col-md-3 col-6" data-aos="zoom-in">
                                 <div class="single-skill">
                                     <img src="./img/skills/c++.png" alt="C++ Language" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-3 col-6 data-aos="zoom-in"">
+                            <div class="col-xl-3 col-md-3 col-6" data-aos="zoom-in">
                                 <div class="single-skill">
                                     <img src="./img/skills/java.png" alt="Java" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-3 col-6 data-aos="zoom-in"">
+                            <div class="col-xl-3 col-md-3 col-6" data-aos="zoom-in">
                                 <div class="single-skill">
                                     <img src="./img/skills/python.png" alt="Python" class="img-fluid">
                                 </div>
@@ -175,8 +163,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-12 card-area" data-aos="zoom-in">
-                        <div class="row card-row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-12 card-area">
+                        <div class="row card-row align-items-center" data-aos="zoom-in">
                             <div class="col-xl-12 col-12" data-aos="zoom-in">
                                 <div class="title">
                                     <h5 class="sub-title text-uppercase text-center">Courses</h5>
