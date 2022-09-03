@@ -84,7 +84,7 @@
 /* About Area Style*/
 .site-main .about-area .about-title h3>span {
     display: block;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
 }
 
 .site-main .about-area .about-title .icon a > img {
@@ -133,16 +133,20 @@
 
 .site-main .skills-area .card-row {
     background-color: #fff7e7;
-    padding: 2.75rem 1rem;
+    padding: 2.25rem 1rem;
 }
 
 /* Project Area Style */
-.site-main .project-area .card:hover{
-    box-shadow: var(--box-shadow);
+.site-main .project-area {
+    padding: 0 5%;
+}
+.site-main .project-area .card{
+    background-color: #F6F6F6;
 }
 
-.site-main .card-area .card{
-    margin: 0 5%;
+.site-main .project-area .card:hover{
+    box-shadow: var(--box-shadow);
+    background-color: white;
 }
 
 /* Contact Area Style */

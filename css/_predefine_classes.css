@@ -10,7 +10,7 @@ section {
     cursor: pointer;
     border: 3px solid transparent;
     border-radius: 25px;
-    padding: 0 2.2rem;
+    padding: 0 2.25rem;
     box-shadow: var(--box-shadow);
     transition: all .6s ease-in-out;
 }
@@ -48,7 +48,7 @@ h1.title {
 }
 
 h2.title {
-    font: normal 500 4rem/3.5rem var(--roboto);
+    font: normal 500 4rem/3.75rem var(--roboto);
     color: var(--title-color);
     margin-bottom: 1rem;
 }
