@@ -53,6 +53,9 @@
         height: auto;
     }
 
+    .header-area .navbar {
+        margin-top: -1px;
+    }
     .header-area .navbar .navbar-collaps {
         margin-top: -0.1rem;
     }
@@ -60,11 +63,6 @@
     .header-area .navbar .navbar-nav {
         text-align: center;
         background-color: white;
-        padding: 0.5rem;
-    }
-
-    .header-area .navbar .navbar-nav .nav-link {
-        padding: 1.5rem;
     }
 
     h1.title {

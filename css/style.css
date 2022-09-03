@@ -45,7 +45,7 @@
 .header-area .navbar .navbar-nav .nav-link {
     font: normal bold 1rem/2px var(--roboto);
     text-transform: uppercase;
-    padding: 1rem;
+    padding: 1.5rem;
     color: var(--title-color);
 }
 
@@ -150,18 +150,23 @@
 }
 
 /* Contact Area Style */
-.contact-area .contact-us{
+.site-main .contact-area {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.site-main .contact-area .contact-us{
     background: url(../img/contact-bg.png) no-repeat;
     background-size: cover;
     padding: 1rem 10%;
 }
 
-.contact-area .contact-us .contact-title > h3 {
+.site-main .contact-area .contact-us .contact-title > h3 {
     color: white;
     padding-top: 0.5rem;
 }
 
-.contact-area .contact-us input[type='email'],
+.site-main .contact-area .contact-us input[type='email'],
 input[type='name'], input[type='text'], textarea {
     font-family: var(--roboto);
     padding: 0.5rem;
