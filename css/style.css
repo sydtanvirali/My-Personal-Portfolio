@@ -114,40 +114,18 @@
     transform: scale(1.1);
 }
 
-.site-main .skills-area .card-row .title > h5{
-    margin-bottom: 2rem;
-    font-weight: bold;
-    color: var(--primary-color);
+.site-main .skills-area .second-row .project-card .card {
+    border-color: var(--border-color);
 }
 
-.site-main .skills-area .card-row .single-card .card {
-    cursor: pointer;
-    transition: all .4s ease;
-}
-
-.site-main .skills-area .card-row .single-card .card:hover {
+.site-main .skills-area .second-row .project-card .card:hover{
     box-shadow: var(--box-shadow);
     transform: scale(1.1);
-    z-index: 1;
 }
 
-.site-main .skills-area .card-row {
-    background-color: #fff7e7;
-    padding: 2.25rem 1rem;
-}
 
-/* Project Area Style */
-.site-main .project-area {
-    padding: 0 5%;
-}
-.site-main .project-area .card{
-    background-color: #F6F6F6;
-}
+/* Resume Area Style */
 
-.site-main .project-area .card:hover{
-    box-shadow: var(--box-shadow);
-    background-color: white;
-}
 
 /* Contact Area Style */
 .site-main .contact-area {

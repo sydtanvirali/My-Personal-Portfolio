@@ -54,21 +54,20 @@ h2.title {
 }
 
 h3.title {
-    font: normal 700 2.75rem/3rem var(--roboto);
-    color: var(--title-color);
-    margin-bottom: 1rem;
-}
-
-h4.title {
     font: normal 700 2.25rem var(--roboto);
     color: var(--title-color);
     margin-bottom: 1rem;
 }
 
+h4.title {
+    font: normal 700 1.25rem var(--roboto);
+    color: var(--title-color);
+}
+
 h5.sub-title {
-    font: normal 500 1.75rem var(--roboto);
+    font: normal 500 1rem var(--roboto);
     color: var(--sub-title-color);
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 p.para {

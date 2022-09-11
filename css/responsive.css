@@ -1,7 +1,21 @@
+@media (min-width: 1400px) {
+    h5.sub-title {
+        padding-bottom: 0;
+    }
+}
+
 @media (max-width: 1199px) {
-    .site-main .skills-area .card-row {
-        padding: 2.75rem 1rem;
-        margin: 1rem 1px;
+    .site-main .skills-area .second-row {
+        margin-top: 0.5rem;
+    }
+
+    h4.title {
+        font-size: 1.5rem;
+    }
+
+    h5.sub-title {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
     }
 }
 
@@ -17,12 +31,12 @@
     }
 
     h3.title {
-        font-size: 2.25rem;
+        font-size: 1.75rem;
         line-height: 2.25rem;
     }
 
     h4.title {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     h5.sub-title {
@@ -33,18 +47,6 @@
         font-size: 1rem;
         line-height: 2.25rem;
         padding: 0 1.25rem;
-    }
-
-    .site-main .skills-area .card-row .single-card {
-        padding: 1rem 0;
-    }
-
-    .site-main .skills-area .card-row {
-        margin: 1rem 0;
-    }
-
-    .site-main .project-area .card{
-        margin: 1.5rem 5%;
     }
 }
 
@@ -65,6 +67,10 @@
         background-color: white;
     }
 
+    .site-main .skills-area .second-row .card{
+        margin-top: 2rem;
+    }
+
     h1.title {
         font-size: 6rem;
         line-height: 3.75rem;
@@ -76,16 +82,16 @@
     }
 
     h3.title {
-        font-size: 2.75rem;
+        font-size: 2.25rem;
         line-height: 3rem;
     }
 
     h4.title {
-        font-size: 2.25rem;
+        font-size: 2rem;
     }
 
     h5.sub-title {
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
 
     .button {
@@ -107,16 +113,16 @@
     }
 
     h3.title {
-        font-size: 2.5rem;
+        font-size: 2rem;
         line-height: 2.5rem;
     }
 
     h4.title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     h5.sub-title {
-        font-size: 1.5;
+        font-size: 1.5rem;
     }
 
     .button {
@@ -138,16 +144,16 @@
     }
 
     h3.title {
-        font-size: 2.2rem;
+        font-size: 1.75rem;
         line-height: 2.25rem;
     }
 
     h4.title {
-        font-size: 1.75rem;
+        font-size: 1.25rem;
     }
 
     h5.sub-title {
-        font-size: 1.25;
+        font-size: 1.25rem;
     }
 
     .button {
@@ -169,16 +175,8 @@
     }
 
     h3.title {
-        font-size: 1.75rem;
-        line-height: 2rem;
-    }
-
-    h4.title {
         font-size: 1.5rem;
-    }
-
-    h5.sub-title {
-        font-size: 1.25rem;
+        line-height: 2rem;
     }
 
     .button {
@@ -202,14 +200,6 @@
     h3.title {
         font-size: 1.25rem;
         line-height: 1.75rem;
-    }
-
-    h4.title {
-        font-size: 1.25rem;
-    }
-
-    h5.sub-title {
-        font-size: 1.1rem;
     }
 
     .button {
