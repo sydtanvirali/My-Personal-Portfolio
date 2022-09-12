@@ -71,6 +71,20 @@
         margin-top: 2rem;
     }
 
+    .site-main .resume-area .row .r-sidebar .sidebar {
+        border: 1px solid var(--border-color);
+        padding: 25px;
+    }
+
+    .site-main .resume-area .row .r-content .scrollspy-example{
+        border: 1px solid var(--border-color);
+        padding: 25px;
+    }
+
+    .site-main .resume-area .row .r-sidebar .sidebar a{
+        text-align: center;
+    }
+
     h1.title {
         font-size: 6rem;
         line-height: 3.75rem;

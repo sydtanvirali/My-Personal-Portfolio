@@ -1,7 +1,4 @@
 
-/* import fonts from fonts.css file */
-@import url(./fonts.css);
-
 /* import varibale css file */
 @import url(./_variables.css);
 
@@ -14,7 +11,7 @@
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
 ::-webkit-scrollbar-track {
     background: whitesmoke;
@@ -125,6 +122,35 @@
 
 
 /* Resume Area Style */
+.site-main .resume-area .resume-title {
+    padding-bottom: 2rem;
+}
+
+.site-main .resume-area .row .r-sidebar .sidebar {
+    border-right: 1px solid var(--border-color);
+    padding-right: 25px;
+}
+.site-main .resume-area .row .r-sidebar .nav .nav-link{
+    color: black;
+    font: normal 700 1rem/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.5rem;
+}
+
+.site-main .resume-area .row .r-sidebar .nav .active{
+    background: var(--gradient-color);
+}
+
+.site-main .resume-area .row .r-content ul li{
+    color: var(--text-color);
+    font: normal 500 1rem/1.6rem var(--roboto);
+}
+
+.site-main .resume-area .row .r-content .scrollspy-example {
+    height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 
 
 /* Contact Area Style */
