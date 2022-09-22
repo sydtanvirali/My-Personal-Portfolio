@@ -155,8 +155,7 @@
 
 /* Contact Area Style */
 .site-main .contact-area {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 0 10%;
 }
 
 .site-main .contact-area .contact-us{

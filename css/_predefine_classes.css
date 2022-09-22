@@ -76,6 +76,7 @@ p.para {
 }
 
 h4.item {
+    font: normal 700 1.5rem/2rem var(--roboto);
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
