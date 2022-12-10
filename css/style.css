@@ -126,30 +126,15 @@
     padding-bottom: 2rem;
 }
 
-.site-main .resume-area .row .r-sidebar .sidebar {
-    border-right: 1px solid var(--border-color);
-    padding-right: 25px;
-}
-.site-main .resume-area .row .r-sidebar .nav .nav-link{
-    color: black;
+.site-main .resume-area .accordion-header .accordion-button{
+    background: whitesmoke;
     font: normal 700 1rem/2px var(--roboto);
-    text-transform: uppercase;
-    padding: 1.5rem;
+    box-shadow: none;
 }
 
-.site-main .resume-area .row .r-sidebar .nav .active{
+.site-main .resume-area .accordion-header .accordion-button[aria-expanded="true"]{
     background: var(--gradient-color);
-}
-
-.site-main .resume-area .row .r-content ul li{
-    color: var(--text-color);
-    font: normal 500 1rem/1.6rem var(--roboto);
-}
-
-.site-main .resume-area .row .r-content .scrollspy-example {
-    height: 50vh;
-    overflow-y: auto;
-    overflow-x: hidden;
+    color: whitesmoke;
 }
 
 

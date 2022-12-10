@@ -17,11 +17,3 @@ navBar.forEach(function (a) {
         navCollapse.classList.remove("show");
     })
 })
-
-const scrollSpy = new bootstrap.ScrollSpy(document.body, {
-    target: '.navbar'
-})
-
-const scrollSpy2 = new bootstrap.ScrollSpy(document.body, {
-    target: '.scrollspy-example'
-})
